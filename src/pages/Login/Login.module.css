@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to right, #051923 31%, #051A24 54%, #051B25 74%, #061C27 88%, #061D29 100%);
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_area {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_image {
+    width: 150%;
+    margin-left: 50%;
+}
+
+.right_area {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: flex-end;
+    margin-right: 120px;
+    align-items: center;
+}
+
+.card_login {
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    background-color: #103142;
+    border-radius: 20px;
+}
+
+.card_login h1 {
+    color: #fff;
+    align-self: center;
+}
+
+.textfield label{
+    display: flex;
+    flex-direction: column;
+}
+
+.textfield span {
+    color: #fff;
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+.textfield input {
+    width: 23vh;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    background: #15445B;
+    color: #C2C2C2;
+}
